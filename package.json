@@ -1,0 +1,20 @@
+{
+  "name": "mercurytour",
+  "version": "1.0.0",
+  "description": "Welcome to the Mercury Tour Training Company GitHub repository! 🚀\r We specialize in creating exceptional training experiences for adventure seekers, explorers, and travel enthusiasts. This repository contains resources, tools, and guides related to our training programs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit-html": "^3.2.1",
+    "page": "^1.11.6"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
