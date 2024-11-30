@@ -7,6 +7,6 @@ import { loginPageView } from './views/login.js';
 page(footerInit)
 page(initHeader);
 page('/',homePageView)
-page('/login',loginPageView)
+page('/login',loginPageView);
 
 page.start();
