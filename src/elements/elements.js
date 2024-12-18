@@ -1,3 +1,3 @@
 export const main = document.querySelector('main');
-export const header = document.querySelector('header');
+export const nav = document.querySelector('nav');
 export const footer = document.querySelector('footer');
