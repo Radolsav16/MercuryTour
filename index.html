@@ -3,23 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/index.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
     <title>Mercury Tour</title>
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <header class="absolute inset-x-0 top-0 z-50"></header>
-    <br>
-    <br>
-    <br>
-    <main></main>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="/"><img src="./assets/image0-removebg-preview.png" alt="mercury-tour-logo" class="img-logo"></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/destinations">Destinations</a></li>
+        <li><a href="/packages">Packages</a></li>
+        <li><a href="/about">About us</a></li>
+        <li><a href="/">Login</a></li>
+        <li><a href="/destinations">Register</a></li>
+      </ul>
+    </nav>
+<main>
     
-    <footer class="footer">
+</main>
 
-    </footer>
-    <script type="module" src="./src/app.js"></script>
+  <footer class="footer">
+      
+  </footer>
+
+    <script src="./src/app.js" type="module"></script>
   </body>
 </html>

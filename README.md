@@ -9,4 +9,4 @@ Vanilla JS
 Lit-html for templating
 Page js for routing
 Firebase for backend
-Taiwind for UI
+Build in  UI with CSS

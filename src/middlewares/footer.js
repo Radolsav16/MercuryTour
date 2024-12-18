@@ -1,57 +1,65 @@
-import { html , render  } from "../../node_modules/lit-html/lit-html.js";
+import { html , render } from "../../node_modules/lit-html/lit-html.js";
 import { footer } from "../elements/elements.js";
 
-const footerTemplate = () => html`
-  <div class="container">
-    <div class="row">
-      <div class="footer-col1">
-        <h4>company</h4>
-        <ul>
-          <li><a href="#about">About us</a></li>
-          <li><a href="index.html">Our services</a></li>
-          <li><a href="index.html">Privacy</a></li>
-          <li><a href="index.html">Affiliate program</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col1">
-        <h4>get help</h4>
-        <ul>
-          <li><a href="#musthave">Shipping</a></li>
-          <li><a href="index.html">Return</a></li>
-          <li><a href="#musthave">Order</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col1">
-        <h4>online shop</h4>
-        <ul>
-          <li><a href="#home">bag</a></li>
-          <li><a href="#shop">Clothing</a></li>
-          <li><a href="#musthave">All</a></li>
-          <li><a href="#man">Men</a></li>
-          <li><a href="#Woman">Women</a></li>
-          <li><a href="#teenager-section">Teenage</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col1">
-        <h4>Contact us</h4>
-
-        <div class="social-links">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a><i class="ri-mail-line"></i></a>
-          <a><i class="ri-phone-line"></i></a>
+const  footerTemplate = () => html`
+  <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="/"><img src="/assets/image0-removebg-preview.png" alt="mercury-tour-logo" class="img-logo"></a>
+          </div>
+          <p>
+            Explore the world's best destinations, enjoy unbeatable prices, and
+            book your perfect getaway instantly.
+          </p>
+          <h4>CONNECT WITH US</h4>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-mail-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>DESTINATIONS</h4>
+          <ul class="footer__links">
+            <li><a href="#">China</a></li>
+            <li><a href="#">Venezuela</a></li>
+            <li><a href="#">Brazil</a></li>
+            <li><a href="#">Australia</a></li>
+            <li><a href="#">London</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR ACTIVITIES</h4>
+          <ul class="footer__links">
+            <li><a href="#">Trekking</a></li>
+            <li><a href="#">Peak Climbing</a></li>
+            <li><a href="#">Biking</a></li>
+            <li><a href="#">River Rafting</a></li>
+            <li><a href="#">Cultural Tour</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-  </div>
-`;
+      <div class="footer__bar">
+      </div>
+`
 
-
-export function footerInit(ctx,next){
+export function initFooter(ctx,next){
     render(footerTemplate(),footer)
-
     next();
 }
