@@ -40,16 +40,21 @@ const homeTemplate = () => html `
         </p>
         <div class="destination__grid">
           <div class="destination__card">
-            <img src="assets/destination-1.jpg" alt="destination" />
-            <div class="destination__content">Bhutan</div>
+            <a href="/destinations/14">
+            <img src="assets/las-vegas-1846684_1280.jpg" alt="destination" />
+            <div class="destination__content">Las Vegas</div>
+          </a>
           </div>
           <div class="destination__card">
-            <img src="assets/destination-2.jpg" alt="destination" />
-            <div class="destination__content">Japan</div>
+            <a href="/destinations/10">
+            <img src="assets/bali-8838762_1280.jpg" alt="destination" />
+            <div class="destination__content">Bali</div></a>
           </div>
           <div class="destination__card">
-            <img src="assets/destination-3.jpg" alt="destination" />
-            <div class="destination__content">Nepal</div>
+          <a href="/destinations/6">
+            <img src="assets/sagrada-familia-552084_1280.jpg" alt="destination" />
+            <div class="destination__content">Barcelona</div>
+          </a>
           </div>
         </div>
       </div>
@@ -58,50 +63,48 @@ const homeTemplate = () => html `
    
 
     <section class="section__container package__container" id="package">
-      <h2 class="section__header">Featured Packages</h2>
+      <h2 class="section__header">We Offer Best Services</h2>
       <p class="section__description">
         We will help you find the trip that's perfect for you!
       </p>
       <div class="package__grid">
         <div class="package__card">
-          <img src="assets/package-1.jpg" alt="package" />
+          <img src="assets/eiffel-tower-975004_1280.jpg" alt="package" />
           <div class="package__card__details">
-            <h4>Thailand City Tour</h4>
+            <h4>Paris</h4>
             <p>
-              Explore the vibrant culture and stunning landscapes of Thailand's
-              bustling cities.
+              Explore timeless elegance, enchanting streets, iconic Eiffel Tower, romantic Seine, world-class art, and couture.
             </p>
             <div>
-              <button class="btn">Book Now</button>
-              <h3>$130</h3>
+            <a href="/book"><button class="btn">Book Now</button></a>
+              
+              <h3>$1700</h3>
             </div>
           </div>
         </div>
         <div class="package__card">
-          <img src="assets/package-2.jpg" alt="package" />
+          <img src="assets/thailand-1451382_1280.jpg" alt="package" />
           <div class="package__card__details">
-            <h4>Laos City Tour</h4>
+            <h4>Puket</h4>
             <p>
-              Immerse yourself in the rich culture and stunning landscapes of
-              Laos.
+            Phuket, Thailand: turquoise waters, vibrant beaches, thrilling nightlife, cultural temples,and tropical serenity.
             </p>
             <div>
-              <button class="btn">Book Now</button>
-              <h3>$150</h3>
+            <a href="/book"><button class="btn">Book Now</button></a>
+              <h3>$2250</h3>
             </div>
           </div>
         </div>
         <div class="package__card">
-          <img src="assets/package-3.jpg" alt="package" />
+          <img src="assets/sunset-3875817_1280.jpg" alt="package" />
           <div class="package__card__details">
-            <h4>Singapore City Tour</h4>
+            <h4>New York</h4>
             <p>
-              Experience the vibrant blend of culture, cuisine, and cutting-edge
-              architecture.
+            New York, USA: towering skyline, vibrant streets, cultural melting pot, Broadway shows, iconic landmarks, endless energy.
             </p>
             <div>
-              <button class="btn">Book Now</button>
-              <h3>$110</h3>
+              <a href="/book"><button class="btn">Book Now</button></a>
+              <h3>$1550</h3>
             </div>
           </div>
         </div>

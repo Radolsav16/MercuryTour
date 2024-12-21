@@ -27,31 +27,29 @@ const  footerTemplate = () => html`
         <div class="footer__col">
           <h4>QUICK LINKS</h4>
           <ul class="footer__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Blogs</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/activities">Activities</a></li>
+            <li><a href="/destinations">Destinations</a></li>
           </ul>
         </div>
         <div class="footer__col">
           <h4>DESTINATIONS</h4>
           <ul class="footer__links">
-            <li><a href="#">China</a></li>
-            <li><a href="#">Venezuela</a></li>
-            <li><a href="#">Brazil</a></li>
-            <li><a href="#">Australia</a></li>
-            <li><a href="#">London</a></li>
+            <li><a href="/destinations">Asia</a></li>
+            <li><a href="/destinations">Europe</a></li>
+            <li><a href="/destinations">North America</a></li>
+            <li><a href="/destinations">South America</a></li>
+            <li><a href="/destinations">Africa</a></li>
           </ul>
         </div>
         <div class="footer__col">
           <h4>OUR ACTIVITIES</h4>
           <ul class="footer__links">
-            <li><a href="#">Trekking</a></li>
-            <li><a href="#">Peak Climbing</a></li>
-            <li><a href="#">Biking</a></li>
-            <li><a href="#">River Rafting</a></li>
-            <li><a href="#">Cultural Tour</a></li>
+            <li><a href="/activities">Beach Day</a></li>
+            <li><a href="/activities">City Tour</a></li>
+            <li><a href="/activities">Hiking</a></li>
+            <li><a href="/activities">Food tasting</a></li>
           </ul>
         </div>
       </div>
