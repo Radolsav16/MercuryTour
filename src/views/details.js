@@ -1,4 +1,4 @@
-import { data } from "../../data.js";
+import { data } from "../data.js";
 import { html , render } from "../../node_modules/lit-html/lit-html.js";
 import { main } from "../elements/elements.js";
 
