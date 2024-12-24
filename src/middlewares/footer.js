@@ -5,7 +5,7 @@ const  footerTemplate = () => html`
   <div class="section__container footer__container">
         <div class="footer__col">
           <div class="footer__logo">
-            <a href="/"><img src="/assets/image0-removebg-preview.png" alt="mercury-tour-logo" class="img-logo"></a>
+            <a href="/"><img src="assets/image0-removebg-preview.png" alt="mercury-tour-logo" class="img-logo"></a>
           </div>
           <p>
             Explore the world's best destinations, enjoy unbeatable prices, and
