@@ -5,8 +5,8 @@ We specialize in creating exceptional training experiences for adventure seekers
 
 
 ## Technology Stack
-Vanilla JS
-Lit-html for templating
-Page js for routing
-Firebase for backend
-Build in  UI with CSS
+- [x] Vanilla JS
+- [x] Lit-html for templating
+- [x] Page js for routing
+- [x] Firebase for backend
+- [x] Taiwind CSS
