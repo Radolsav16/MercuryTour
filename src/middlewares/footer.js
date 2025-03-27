@@ -1,5 +1,6 @@
 import { html , render } from "../../node_modules/lit-html/lit-html.js";
 import { footer } from "../elements/elements.js";
+import onScroll from "../utils/onScrollFunction.js";
 
 const  footerTemplate = () => html`
   <div class="section__container footer__container">
@@ -14,13 +15,10 @@ const  footerTemplate = () => html`
           <h4>CONNECT WITH US</h4>
           <ul class="footer__socials">
             <li>
-              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="https://www.instagram.com/mercurytour.bg/?igsh=MXkxdmo5aWFvYm9oZg%3D%3D#"><i class="ri-instagram-fill"></i></a>
             </li>
             <li>
-              <a href="#"><i class="ri-facebook-fill"></i></a>
-            </li>
-            <li>
-              <a href="#"><i class="ri-mail-fill"></i></a>
+              <a href="mailto:mercurytour@abv.bg"><i class="ri-mail-fill"></i></a>
             </li>
           </ul>
         </div>
@@ -60,4 +58,9 @@ const  footerTemplate = () => html`
 export function initFooter(ctx,next){
     render(footerTemplate(),footer)
     next();
+}
+
+export function scroll(ctx,next){
+  onScroll();
+  next()
 }
